@@ -1,4 +1,7 @@
 # Bicycle Parking
+
+https://user-images.githubusercontent.com/8145785/222561584-8521e840-2536-4cf2-b31d-0e97ebf59a1e.mov
+
 [See the live project here](https://bicycleparking.netlify.app/)
 
 A map that shows available bicycle parking in San Francisco. 
