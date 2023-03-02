@@ -1,4 +1,4 @@
-mapboxgl.accessToken = process.env.API_KEY
+mapboxgl.accessToken = 'pk.eyJ1IjoiZGV2aW5sYW5lIiwiYSI6ImNsZXJrdDlwcjBmNXY0NW5sNW44aTQzNW8ifQ.nCItJdtqehnnUcXOrtcupQ'
 
 const map = new mapboxgl.Map({
     container: 'map',
