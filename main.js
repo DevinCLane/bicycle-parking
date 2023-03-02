@@ -1,3 +1,5 @@
+// don't worry, this access token is restricted to only allow usage from the domain that it's deployed on.
+// it cannot be taken and used to up my account 😅
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGV2aW5sYW5lIiwiYSI6ImNsZXJrdDlwcjBmNXY0NW5sNW44aTQzNW8ifQ.nCItJdtqehnnUcXOrtcupQ'
 
 const map = new mapboxgl.Map({
