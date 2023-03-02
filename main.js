@@ -1,12 +1,15 @@
+
 // don't worry, this access token is restricted to only allow usage from the domain that it's deployed on.
 // it cannot be taken and used to up my account 😅
+// pk.eyJ1IjoiZGV2aW5sYW5lIiwiYSI6ImNsZXJrdDlwcjBmNXY0NW5sNW44aTQzNW8ifQ.nCItJdtqehnnUcXOrtcupQ
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGV2aW5sYW5lIiwiYSI6ImNsZXJrdDlwcjBmNXY0NW5sNW44aTQzNW8ifQ.nCItJdtqehnnUcXOrtcupQ'
 
-const map = new mapboxgl.Map({
+const map = new mapboxgl.Map({ 
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v11',
     zoom: 12,
-    center: [-122.44442, 37.75493]
+    center: [-122.44442, 37.75493],
+    customAttribution: 'Map by <a href="https://www.devinlane.com/" target="_blank">Devin Lane 🎸</a> <a href="https://github.com/DevinCLane/bicycle-parking" target="_blank">Source code here 💻</a>'
 })
 
 map.on('load', () => {
