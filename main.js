@@ -35,12 +35,16 @@ map.on('load', () => {
 
     map.on('mouseenter', 'bicycle-parking-layer', (e) => {
         const coordinates = e.features[0].geometry.coordinates.slice();
-        const address = e.features[0].properties.address;
-        const location = e.features[0].properties.location;
-        const placement = e.features[0].properties.placement;
-        const racks = e.features[0].properties.racks;
-        const spaces = e.features[0].properties.spaces;
-        const installYear = e.features[0].properties.install_yr;
+
+        const {
+            address,
+            location,
+            placement,
+            racks,
+            spaces,
+            install_yr: installYear,
+        } = e.features[0].properties;
+        
         popup
             .setLngLat(coordinates)
             .setHTML(
