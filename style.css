@@ -260,8 +260,8 @@ category: legacy browsers
 /* media query to make the text box smaller on mobile */
 @media screen and (max-width: 600px) {
   #map-overlay {
-    margin: 0.5rem;
-    transform: scale(0.7);
+    margin: 0;
+    transform: scale(0.55);
   }
 }
 
