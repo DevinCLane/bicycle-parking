@@ -1,23 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bicycle parking</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🚲</text></svg>">
-    <!-- mapbox cdn -->
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
-</head>
-<body>
-    <div id="map"></div>
-    <div id="map-overlay">
-        <h1>🚴 Bicycle Parking</h1>
-        <p>This map shows available bicycle parking in San Francisco</p>
-    </div>
-    
-    <script src="main.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bicycle parking</title>
+        <link rel="stylesheet" href="style.css" />
+        <!-- favicon -->
+        <link
+            rel="icon"
+            href="data:image/svg+xml,<sgvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🚲</text></svg>"
+        />
+        <!-- open graph tags -->
+        <meta property="og:site_name" content="Bicycle Parking" />
+        <meta
+            property="“og:title”"
+            content="Bicycle Parking in San Francisco"
+        />
+        <meta
+            property="og:description"
+            content="A map of bicycle parking in San Francisco, CA"
+        />
+        <meta property="og:url" content="https://bicycleparking.netlify.app/" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="article:publisher"
+            content="https://www.devinlane.com"
+        />
+        <meta
+            property="og:image"
+            content="https://bicycleparking.netlify.app/bicycle-parking.png"
+        />
+        <meta
+            property="og:image:secure_url"
+            content="https://bicycleparking.netlify.app/bicycle-parking.png"
+        />
+        <meta property="og:image:width" content="1923" />
+        <meta property="og:image:height" content="1923" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+            property="twitter:image"
+            content="https://bicycleparking.netlify.app/bicycle-parking.png"
+        />
+        <meta property="twitter:site" content="@DevinCLane" />
+
+        <!-- mapbox cdn -->
+        <link
+            href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css"
+            rel="stylesheet"
+        />
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+    </head>
+    <body>
+        <div id="map"></div>
+        <div id="map-overlay">
+            <h1>🚴 Bicycle Parking</h1>
+            <p>This map shows available bicycle parking in San Francisco</p>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
 </html>
